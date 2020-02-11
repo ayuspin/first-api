@@ -1,0 +1,18 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "Based on https://code.tutsplus.com/tutorials/code-your-first-api-with-nodejs-and-express-set-up-the-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Andrey Yuspin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.0"
+  }
+}
